@@ -6,7 +6,7 @@ Installation
 
 The repository can be loaded using the following command:
 
-https://github.com/racconeth/marisort.git 
+git clone https://github.com/racconeth/marisort.git 
 cd marisort
 pip install -r requirements.txt
 
