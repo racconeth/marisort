@@ -6,15 +6,10 @@ Installation
 
 The repository can be loaded using the following command:
 
-git clone https://github.com/racconeth/marisort.git 
-cd marisort
-pip install -r requirements.txt
-
-To install the packages listed in the requirements.txt you can also use
-
-You can also install getopt module
-
-pip install getopt
+  git clone https://github.com/racconeth/marisort.git 
+  cd marisort
+  pip install -r requirements.txt
+  pip install getopt
 
 
 Usage
