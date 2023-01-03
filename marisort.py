@@ -10,13 +10,13 @@ def main(argv):
     try:
         opts, args = getopt.getopt(argv, 'hi:o:', ['ifile=', 'ofile='])
     except getopt.GetoptError:
-        print('marisort.py -i <inputfile> -o <outputfile>')
+        print('marisort.py -i file.txt -o result.txt')
         sys.exit(2)
 
     # Process the options -h
     for opt, arg in opts:
         if opt == '-h':
-            print('marisort.py -i <inputfile> -o <outputfile>')
+            print('marisort.py -i file.txt -o result.txt')
             sys.exit()
         elif opt in ('-i', '--ifile'):
             input_file = arg
