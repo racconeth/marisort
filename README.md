@@ -14,6 +14,6 @@ The repository can be loaded using the following command:
 
 Usage
 
-python code.py -i url.txt -o result.txt
+python marisort.py -i url.txt -o result.txt
 
 This will run the script, which will open url.txt, read its contents, remove the quotation marks and commas, and write the modified contents to result.txt.
